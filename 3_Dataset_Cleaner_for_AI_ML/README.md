@@ -1,65 +1,61 @@
-# PyraVim-Projects
+# Project 3: Dataset Cleaner for AI/ML
 
-Welcome to my Python portfolio! I'm PyraVim, a Python developer with 3 years of experience in cybersecurity, specializing in secure scripting, debugging, and data processing. This repository showcases my skills through practical Python projects, perfect for automation, data tasks, and AI/ML support. All scripts are clean, documented, and designed with secure coding practices. Check out my [Fiverr profile](https://www.fiverr.com/users/thefletch12) for custom Python solutions!
+This project demonstrates the critical process of data cleaning and preprocessing, which is a foundational step in any Machine Learning or Data Science workflow. It takes the raw Titanic dataset and transforms it into a clean, model-ready format.
 
-## Projects
+## Description
 
-Each project is self-contained in its own directory and includes a specific `README.md` with detailed instructions and explanations.
+The `dataset_cleaner.py` script downloads the Titanic dataset, performs a series of cleaning and feature engineering operations, and saves the result. This process is vital for improving the accuracy and reliability of AI/ML models.
 
-### 1\. [CSV Debugging Demo](https://github.com/PyraVim/PyraVim-Projects/tree/main/1_CSV_Debugging_Demo)
+The script prints a "before and after" summary to the console, clearly showing the impact of each data transformation.
 
-- **Description**: A "before and after" demonstration of fixing and optimizing a buggy CSV processing script.
-    
-- **Showcases**: Error handling (`ValueError`, `IndexError`), performance optimization (vectorization vs. loops), and secure data validation.
-    
-- **Use Case**: Processing raw sales data into a clean, usable format.
-    
-- **Libraries**: `pandas`
-    
+### Key Data Cleaning & Preprocessing Steps:
 
-### 2\. [Simple Web Scraper](https://github.com/PyraVim/PyraVim-Projects/tree/main/2_Simple_Web_Scraper)
+- **Handles Missing Values**:
+    
+    - **Imputation**: Fills missing `Age` values with the dataset's median age and missing `Embarked` values with the most common port.
+        
+    - **Column Removal**: Drops the `Cabin` column, as it contains too many missing entries to be useful.
+        
+- **Feature Engineering**:
+    
+    - Creates a new `Title` feature (e.g., Mr, Mrs, Miss) by extracting it from the `Name` column, providing a potentially more predictive feature than the full name.
+        
+    - Drops original columns like `Name` and `Ticket` that are not useful for modeling.
+        
+- **Data Conversion**:
+    
+    - Converts categorical features like `Sex`, `Embarked`, and the new `Title` column into a numerical format using mapping and one-hot encoding (`get_dummies`), which is required by most machine learning algorithms.
+- **Output**:
+    
+    - Saves the final, clean dataset to `titanic_cleaned.csv`.
 
-- **Description**: A secure and ethical web scraper that extracts book data from a public practice website.
-    
-- **Showcases**: Ethical rate limiting, custom `User-Agent` headers, robust error handling, and automated pagination.
-    
-- **Use Case**: Collecting data for business analytics or research.
-    
-- **Libraries**: `requests`, `beautifulsoup4`, `pandas`
-    
+## How to Run This Project
 
-### 3\. [Dataset Cleaner for AI/ML](https://github.com/PyraVim/PyraVim-Projects/tree/main/3_Dataset_Cleaner_for_AI_ML)
-
-- **Description**: A script that cleans and prepares the classic Titanic dataset for machine learning model training.
-    
-- **Showcases**: Handling missing values (imputation), feature engineering, and converting data types for model compatibility.
-    
-- **Use Case**: Preprocessing raw data for machine learning or advanced analytics projects.
-    
-- **Libraries**: `pandas`, `numpy`
-    
-
-## How to Use This Repository
-
-1.  **Clone the repository:**
-    
-    ```
-    git clone https://github.com/PyraVim/PyraVim-Projects.git
-    ```
-    
-2.  **Navigate into a project directory:** Choose a project you'd like to explore. For example:
+1.  **Navigate to this directory:**
     
     ```
     cd 3_Dataset_Cleaner_for_AI_ML
     ```
     
-3.  **Follow the project-specific instructions:** Each project folder contains its own `README.md` file with detailed steps on how to set up a virtual environment, install its unique dependencies using `requirements.txt`, and run the code.
+2.  **Set up a virtual environment (Recommended):**
     
-
-## About Me
-
-- **Expertise**: 3 years in Python development with a focus on cybersecurity, building secure and efficient scripts for automation, debugging, and data tasks.
+    ```
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
     
-- **Services**: Offering Python debugging, automation, web scraping, and AI/ML code validation on Fiverr. Visit my [Fiverr profile](https://www.fiverr.com/users/thefletch12) to hire me!
+    *On Windows, use `venv\Scripts\activate`*
     
-- **Contact**: Message me on Fiverr or GitHub for project inquiries.
+3.  **Install dependencies:**
+    
+    ```
+    pip install -r requirements.txt
+    ```
+    
+4.  **Run the cleaner script:** The script will download the data, process it, and save the output.
+    
+    ```
+    python dataset_cleaner.py
+    ```
+    
+5.  **Check the output:** A new file named `titanic_cleaned.csv` will be created. This file contains the structured, cleaned data ready for model training.
