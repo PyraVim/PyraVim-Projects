@@ -4,40 +4,62 @@ Welcome to my Python portfolio! I'm PyraVim, a Python developer with 3 years of 
 
 ## Projects
 
-### 1. CSV Debugging Demo
-- **Description**: Demonstrates my debugging skills by fixing common errors in a CSV processing script.
-- **Files**:
-  - `buggy_csv_processor.py`: Original script with index errors, type mismatches, and inefficient loops.
-  - `fixed_csv_processor.py`: Corrected script with error handling, optimized performance (50% faster runtime), and secure input validation.
-- **Use Case**: Processes sales data to calculate totals, saving results to a clean CSV.
-- **Libraries**: pandas
-- **Why It Matters**: Shows my ability to troubleshoot and optimize Python code, ensuring reliable solutions for clients.
+Each project is self-contained in its own directory and includes a specific `README.md` with detailed instructions and explanations.
 
-### 2. Simple Web Scraper
-- **Description**: A secure web scraper that extracts book titles and prices from a public bookstore website, saving to a CSV.
-- **File**: `web_scraper.py`
-- **Features**: Includes rate limiting and error handling to prevent IP bans and ensure robust performance.
-- **Use Case**: Collects data for business analytics or research.
-- **Libraries**: requests, BeautifulSoup4
-- **Why It Matters**: Highlights my automation and web scraping skills, delivering client-ready data solutions with cybersecurity best practices.
+### 1\. [CSV Debugging Demo](https://github.com/PyraVim/PyraVim-Projects/tree/main/1_CSV_Debugging_Demo)
 
-### 3. Dataset Cleaner for AI/ML
-- **Description**: Cleans a public dataset (Titanic) for AI/ML model training, removing duplicates and handling missing values.
-- **File**: `dataset_cleaner.py`
-- **Features**: Validates data integrity and generates summary statistics for reliable ML preprocessing.
-- **Use Case**: Prepares data for machine learning or analytics projects.
-- **Libraries**: pandas, numpy
-- **Why It Matters**: Demonstrates my data processing and validation skills, ideal for AI/ML and data science tasks.
+- **Description**: A "before and after" demonstration of fixing and optimizing a buggy CSV processing script.
+    
+- **Showcases**: Error handling (`ValueError`, `IndexError`), performance optimization (vectorization vs. loops), and secure data validation.
+    
+- **Use Case**: Processing raw sales data into a clean, usable format.
+    
+- **Libraries**: `pandas`
+    
+
+### 2\. [Simple Web Scraper](https://github.com/PyraVim/PyraVim-Projects/tree/main/2_Simple_Web_Scraper)
+
+- **Description**: A secure and ethical web scraper that extracts book data from a public practice website.
+    
+- **Showcases**: Ethical rate limiting, custom `User-Agent` headers, robust error handling, and automated pagination.
+    
+- **Use Case**: Collecting data for business analytics or research.
+    
+- **Libraries**: `requests`, `beautifulsoup4`, `pandas`
+    
+
+### 3\. [Dataset Cleaner for AI/ML](https://github.com/PyraVim/PyraVim-Projects/tree/main/3_Dataset_Cleaner_for_AI_ML)
+
+- **Description**: A script that cleans and prepares the classic Titanic dataset for machine learning model training.
+    
+- **Showcases**: Handling missing values (imputation), feature engineering, and converting data types for model compatibility.
+    
+- **Use Case**: Preprocessing raw data for machine learning or advanced analytics projects.
+    
+- **Libraries**: `pandas`, `numpy`
+    
+
+## How to Use This Repository
+
+1.  **Clone the repository:**
+    
+    ```
+    git clone https://github.com/PyraVim/PyraVim-Projects.git
+    ```
+    
+2.  **Navigate into a project directory:** Choose a project you'd like to explore. For example:
+    
+    ```
+    cd 3_Dataset_Cleaner_for_AI_ML
+    ```
+    
+3.  **Follow the project-specific instructions:** Each project folder contains its own `README.md` file with detailed steps on how to set up a virtual environment, install its unique dependencies using `requirements.txt`, and run the code.
+    
 
 ## About Me
+
 - **Expertise**: 3 years in Python development with a focus on cybersecurity, building secure and efficient scripts for automation, debugging, and data tasks.
+    
 - **Services**: Offering Python debugging, automation, web scraping, and AI/ML code validation on Fiverr. Visit my [Fiverr profile](https://www.fiverr.com/users/thefletch12) to hire me!
+    
 - **Contact**: Message me on Fiverr or GitHub for project inquiries.
-
-## How to Use
-1. Clone the repository: `git clone https://github.com/PyraVim/PyraVim-Projects.git`
-2. Install dependencies: `pip install pandas numpy requests beautifulsoup4`
-3. Run any script (e.g., `python web_scraper.py`) to see results.
-4. Check each script’s comments for usage details.
-
-You can explore the code to see my approach to clean, secure, and efficient Python scripting. Let’s work together on your next project!
