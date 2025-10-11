@@ -12,14 +12,12 @@ I'm a Python Developer with **3 years of hands-on experience** specializing in *
 | 📊 **Data Engineering** | Data cleaning, preprocessing, optimization (e.g., `pandas` vectorization), and web scraping. |
 | ⚙️ **Automation** | Building reliable, documented, and production-ready automated scripts. |
 
-<div align="center">
-    <a href="https://www.fiverr.com/users/thefletch12">
-        <img src="https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-207E2F?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr Profile">
-    </a>
-    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
-    <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
-    <img src="https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge&logo=beautifulsoup&logoColor=white" alt="BeautifulSoup4">
-</div>
+**[Hire Me on Fiverr](https://www.fiverr.com/users/thefletch12)**
+
+[![Fiverr Profile](https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-207E2F?style=for-the-badge&logo=fiverr&logoColor=white)](https://www.fiverr.com/users/thefletch12)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![BeautifulSoup4](https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge&logo=beautifulsoup&logoColor=white)](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 
 ## ✨ Project Portfolio
 
