@@ -1,65 +1,58 @@
-# PyraVim-Projects
+# 🐍 PyraVim-Projects: Secure Python Development & Data Engineering Portfolio
 
-Welcome to my Python portfolio! I'm PyraVim, a Python developer with 3 years of experience in cybersecurity, specializing in secure scripting, debugging, and data processing. This repository showcases my skills through practical Python projects, perfect for automation, data tasks, and AI/ML support. All scripts are clean, documented, and designed with secure coding practices. Check out my [Fiverr profile](https://www.fiverr.com/users/thefletch12) for custom Python solutions!
+-----
 
-## Projects
+### Hi, I'm **PyraVim**\! 👋
 
-Each project is self-contained in its own directory and includes a specific `README.md` with detailed instructions and explanations.
+I'm a Python Developer with **3 years of hands-on experience** specializing in **Cybersecurity**, **Secure Scripting**, and **Data Engineering**. I build robust, efficient, and well-tested Python solutions for automation, debugging, data processing, and AI/ML pipeline support.
 
-### 1\. [CSV Debugging Demo](https://github.com/PyraVim/PyraVim-Projects/tree/main/1_CSV_Debugging_Demo)
+| Focus Area | Expertise |
+| :--- | :--- |
+| 🛡️ **Cybersecurity** | Secure coding practices, vulnerability-aware scripting, data validation, and error handling. |
+| 📊 **Data Engineering** | Data cleaning, preprocessing, optimization (e.g., `pandas` vectorization), and web scraping. |
+| ⚙️ **Automation** | Building reliable, documented, and production-ready automated scripts. |
 
-- **Description**: A "before and after" demonstration of fixing and optimizing a buggy CSV processing script.
-    
-- **Showcases**: Error handling (`ValueError`, `IndexError`), performance optimization (vectorization vs. loops), and secure data validation.
-    
-- **Use Case**: Processing raw sales data into a clean, usable format.
-    
-- **Libraries**: `pandas`
-    
+\<p align="center"\>
+\<a href="[https://www.fiverr.com/users/thefletch12](https://www.fiverr.com/users/thefletch12)"\>\<img src="[https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-207E2F?style=for-the-badge\&logo=fiverr\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Hire%2520Me%2520on%2520Fiverr-207E2F%3Fstyle%3Dfor-the-badge%26logo%3Dfiverr%26logoColor%3Dwhite)" alt="Fiverr Profile"\>\</a\>
+\<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite)" alt="Python"\>
+\<img src="[https://img.shields.io/badge/pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/pandas-150458%3Fstyle%3Dfor-the-badge%26logo%3Dpandas%26logoColor%3Dwhite)" alt="Pandas"\>
+\<img src="[https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge\&logo=beautifulsoup\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/beautifulsoup4-101010%3Fstyle%3Dfor-the-badge%26logo%3Dbeautifulsoup%26logoColor%3Dwhite)" alt="BeautifulSoup4"\>
+\</p\>
 
-### 2\. [Simple Web Scraper](https://github.com/PyraVim/PyraVim-Projects/tree/main/2_Simple_Web_Scraper)
+## ✨ Project Portfolio
 
-- **Description**: A secure and ethical web scraper that extracts book data from a public practice website.
-    
-- **Showcases**: Ethical rate limiting, custom `User-Agent` headers, robust error handling, and automated pagination.
-    
-- **Use Case**: Collecting data for business analytics or research.
-    
-- **Libraries**: `requests`, `beautifulsoup4`, `pandas`
-    
+Each project is self-contained with a dedicated `README.md` for setup, usage, and a deep-dive into the secure and optimized code.
 
-### 3\. [Dataset Cleaner for AI/ML](https://github.com/PyraVim/PyraVim-Projects/tree/main/3_Dataset_Cleaner_for_AI_ML)
+| Project | Description | Key Skills Demonstrated | Libraries |
+| :--- | :--- | :--- | :--- |
+| **1. [CSV Debugging Demo](https://github.com/PyraVim/PyraVim-Projects/tree/main/1_CSV_Debugging_Demo)** | A practical "before & after" showcasing the refactoring of a buggy CSV script into an **optimized, production-ready data pipeline.** | **Error Handling** (`try/except`), **Performance Optimization** (Vectorization vs. Loops), Secure Data Validation. | `pandas` |
+| **2. [Simple Web Scraper](https://github.com/PyraVim/PyraVim-Projects/tree/main/2_Simple_Web_Scraper)** | An **ethical and robust web scraping solution** to collect data from a public practice website, designed for business analytics. | Ethical **Rate Limiting**, Custom **User-Agent** Headers, Automated **Pagination**, and Data Export. | `requests`, `beautifulsoup4`, `pandas` |
+| **3. [Dataset Cleaner for AI/ML](https://github.com/PyraVim/PyraVim-Projects/tree/main/3_Dataset_Cleaner_for_AI_ML)** | A script for transforming raw, messy data (Titanic dataset) into a clean, **model-compatible format for machine learning.** | **Missing Value Imputation**, **Feature Engineering**, Categorical Data Encoding, and Type Conversion. | `pandas`, `numpy` |
 
-- **Description**: A script that cleans and prepares the classic Titanic dataset for machine learning model training.
-    
-- **Showcases**: Handling missing values (imputation), feature engineering, and converting data types for model compatibility.
-    
-- **Use Case**: Preprocessing raw data for machine learning or advanced analytics projects.
-    
-- **Libraries**: `pandas`, `numpy`
-    
-
-## How to Use This Repository
+## 🚀 Get Started
 
 1.  **Clone the repository:**
-    
-    ```
+
+    ```bash
     git clone https://github.com/PyraVim/PyraVim-Projects.git
     ```
-    
-2.  **Navigate into a project directory:** Choose a project you'd like to explore. For example:
-    
-    ```
-    cd 3_Dataset_Cleaner_for_AI_ML
-    ```
-    
-3.  **Follow the project-specific instructions:** Each project folder contains its own `README.md` file with detailed steps on how to set up a virtual environment, install its unique dependencies using `requirements.txt`, and run the code.
-    
 
-## About Me
+2.  **Navigate to a project folder:**
 
-- **Expertise**: 3 years in Python development with a focus on cybersecurity, building secure and efficient scripts for automation, debugging, and data tasks.
-    
-- **Services**: Offering Python debugging, automation, web scraping, and AI/ML code validation on Fiverr. Visit my [Fiverr profile](https://www.fiverr.com/users/thefletch12) to hire me!
-    
-- **Contact**: Message me on Fiverr or GitHub for project inquiries.
+    ```bash
+    cd 2_Simple_Web_Scraper
+    ```
+
+3.  **Follow the local instructions:**
+    Each folder's `README.md` provides detailed steps for setting up a virtual environment and installing the necessary dependencies via `requirements.txt`.
+
+## 🤝 Custom Python Solutions
+
+Looking for secure, custom Python work? I offer freelance services for:
+
+  - **Python Debugging & Code Review**
+  - **Web Scraping & Data Collection**
+  - **Automation Scripting**
+  - **AI/ML Data Preprocessing**
+
+> 🔗 **Hire me on Fiverr:** [PyraVim's Fiverr Profile](https://www.fiverr.com/users/thefletch12) (Message me for custom project inquiries\!)
