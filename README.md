@@ -20,7 +20,6 @@ I'm a Python Developer with **3 years of hands-on experience** specializing in *
     <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
     <img src="https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge&logo=beautifulsoup&logoColor=white" alt="BeautifulSoup4">
 </div>
->
 
 ## ✨ Project Portfolio
 
