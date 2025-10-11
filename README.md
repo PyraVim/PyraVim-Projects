@@ -12,12 +12,15 @@ I'm a Python Developer with **3 years of hands-on experience** specializing in *
 | 📊 **Data Engineering** | Data cleaning, preprocessing, optimization (e.g., `pandas` vectorization), and web scraping. |
 | ⚙️ **Automation** | Building reliable, documented, and production-ready automated scripts. |
 
-\<p align="center"\>
-\<a href="[https://www.fiverr.com/users/thefletch12](https://www.fiverr.com/users/thefletch12)"\>\<img src="[https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-207E2F?style=for-the-badge\&logo=fiverr\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Hire%2520Me%2520on%2520Fiverr-207E2F%3Fstyle%3Dfor-the-badge%26logo%3Dfiverr%26logoColor%3Dwhite)" alt="Fiverr Profile"\>\</a\>
-\<img src="[https://img.shields.io/badge/Python-3776AB?style=for-the-badge\&logo=python\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Python-3776AB%3Fstyle%3Dfor-the-badge%26logo%3Dpython%26logoColor%3Dwhite)" alt="Python"\>
-\<img src="[https://img.shields.io/badge/pandas-150458?style=for-the-badge\&logo=pandas\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/pandas-150458%3Fstyle%3Dfor-the-badge%26logo%3Dpandas%26logoColor%3Dwhite)" alt="Pandas"\>
-\<img src="[https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge\&logo=beautifulsoup\&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/beautifulsoup4-101010%3Fstyle%3Dfor-the-badge%26logo%3Dbeautifulsoup%26logoColor%3Dwhite)" alt="BeautifulSoup4"\>
-\</p\>
+<div align="center">
+    <a href="https://www.fiverr.com/users/thefletch12">
+        <img src="https://img.shields.io/badge/Hire%20Me%20on%20Fiverr-207E2F?style=for-the-badge&logo=fiverr&logoColor=white" alt="Fiverr Profile">
+    </a>
+    <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+    <img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas">
+    <img src="https://img.shields.io/badge/beautifulsoup4-101010?style=for-the-badge&logo=beautifulsoup&logoColor=white" alt="BeautifulSoup4">
+</div>
+>
 
 ## ✨ Project Portfolio
 
