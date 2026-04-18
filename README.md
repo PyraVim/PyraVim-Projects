@@ -40,5 +40,3 @@ Each project is self-contained with a dedicated `README.md` for setup, usage, an
     Each folder's `README.md` provides detailed steps for setting up a virtual environment and installing the necessary dependencies via `requirements.txt`.
 
   - **AI/ML Data Preprocessing**
-
-> 🔗 **Hire me on Fiverr:** [PyraVim's Fiverr Profile](https://www.fiverr.com/users/thefletch12) (Message me for custom project inquiries\!)
