@@ -38,5 +38,3 @@ Each project is self-contained with a dedicated `README.md` for setup, usage, an
 
 3.  **Follow the local instructions:**
     Each folder's `README.md` provides detailed steps for setting up a virtual environment and installing the necessary dependencies via `requirements.txt`.
-
-  - **AI/ML Data Preprocessing**
